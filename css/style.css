@@ -23,6 +23,16 @@ body {
     position: absolute;
 }
 
+.circle {
+    position: absolute;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    background: lightblue;
+}
+
 .myBar{
     background-color: #131313;
     position: absolute;
