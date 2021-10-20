@@ -2,7 +2,7 @@ const stage = $("#container");
 const stageWidth = stage.innerWidth();
 const stageHeight = stage.innerHeight();
 
-const data = [5, 7, 3, 8, 3, 6, 4];
+const data = [5, 7, 3, 8, 3, 6, 4, 5];
 
 const barWidthMax = stage / data.length;
 
