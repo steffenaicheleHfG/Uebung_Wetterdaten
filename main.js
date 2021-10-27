@@ -37,20 +37,30 @@ function stackedDiagram() {
     const verticalDistance = barWidth + verticalOffset
     
     for (let i = 0; i < data.length; i++) {
-        console.log(i);
+        console.log("i = " + i);
+        const dayContainer = $('<div class="day-container"></div>');
+        let xPosContainer = i * 2 * barWidth;
+
+        dayContainer.css({
+            width: barWidth,
+            left: xPosContainer,
+            top: 0
+        })
+
+        stage.append(dayContainer);
+        
         for (let j = 0; j < data[i]; j++) {
-            console.log(j);
-            let xPos = i * 2 * barWidth;
+            console.log("j = " + j);
             const myCircle = $('<div class="circle"></div>');
-            const yPos = stageHeight - barWidth - (j * verticalDistance);
+            const yPos = j * verticalDistance;
             myCircle.css({
                 width: barWidth,
                 height: barWidth,
-                left: xPos,
+                left: 0 ,
                 top: yPos
             })
 
-            stage.append(myCircle);
+            dayContainer.append(myCircle);
         }
     }
 }
