@@ -61,10 +61,3 @@ function stackedDiagram() {
         }
     }
 }
-
-const myCountry = {
-    longitude: 90,
-    latitude: -45,
-    population: 30000000,
-    countryName: "China"
-}

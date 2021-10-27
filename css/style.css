@@ -16,24 +16,12 @@ body {
     /* display: flex;
     justify-content: space-between;
     align-items: flex-end; */
-    /* background-color: darkgray; */
+    background-color: darkgray;
 }
 
 .bar{
     background-color: #131313;
     position: absolute;
-}
-
-.day-container {
-    position: absolute;
-    width: 20px;
-    height: 400px;
-    /* background-color: aliceblue; */
-    transform: skew(20deg);
-    -webkit-transform: skew(20deg);
-    -moz-transform: skew(20deg);
-    -ms-transform: skew(20deg);
-    -o-transform: skew(20deg);
 }
 
 .circle {
@@ -44,11 +32,6 @@ body {
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
     background: lightblue;
-    transform: skew(-20deg);
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
-    -ms-transform: skew(-20deg);
-    -o-transform: skew(-20deg);
 }
 
 .myBar{
